@@ -21,5 +21,5 @@ constexpr unsigned LedsBottomLeft  = 6;
 constexpr unsigned LedsTotal = LedsBottomRight + LedsRight + LedsTop + LedsLeft + LedsBottomLeft;
 
 // serial data is sent as |Header|RGBRGBRGB....|Footer|
-constexpr char const *SerialDataHeader = "WAMB";
-constexpr char const *SerialDataFooter = "BMAW";
+constexpr char const SerialDataHeader[4] = { 'W', 'A', 'M', 'B' };
+constexpr char const SerialDataFooter[4] = { 'B', 'M', 'A', 'W' };
