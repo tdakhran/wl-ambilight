@@ -6,7 +6,11 @@
 </p>
 
 An ambient light for Wayland.
-For X11 use [josh26turner/Ambilight](https://github.com/josh26turner/Ambilight). 
+
+> For Windows 11 use [tdakhran/win-ambilight](https://github.com/tdakhran/win-ambilight).
+>
+> For Linux(X11) use [josh26turner/Ambilight](https://github.com/josh26turner/Ambilight).
+
 
 ## Hardware
 
